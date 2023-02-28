@@ -29,7 +29,7 @@ public class CalculatorTest {
 	public void testGetwishes() {
 		
 		String result=objscientificCalculator.getwishes();
-		Assert.assertEquals("TC_GetWishes ","Hello World",result);
+		Assert.assertEquals("TC_GetWishes ","Hello world",result);
 		
 	}
 
