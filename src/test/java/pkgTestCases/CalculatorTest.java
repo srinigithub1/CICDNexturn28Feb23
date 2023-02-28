@@ -41,12 +41,16 @@ public class CalculatorTest {
 
 	@Test
 	public void testSubstraction() {
-		Assert.assertTrue(true);
+		//Assert.assertTrue(true);
+		int varResult_Substract=objscientificCalculator.Substraction(12, 12);
+		Assert.assertEquals("TC_Substraction", 0,varResult_Substract);
+
 	}
 
 	@Test
 	public void testMultiplication() {
-		Assert.assertTrue(true);
+		int varResult_Multiplicaiton=objscientificCalculator.Multiplication(12, 12);
+		Assert.assertEquals("TC_Multiplication", 144,varResult_Multiplicaiton);
 	}
 
 	@Test
