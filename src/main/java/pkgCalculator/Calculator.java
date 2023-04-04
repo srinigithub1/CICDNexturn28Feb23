@@ -10,6 +10,10 @@ public class Calculator {
 		return varHi;
 	}
 	
+	public void dummyFunction() {
+		System.out.println("this is dummy funciton");
+	}
+	
 	public int addition(int a,int b) {
 		return a+b;
 	}
